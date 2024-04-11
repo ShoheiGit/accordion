@@ -1,32 +1,29 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    background: #ececec;
-    padding: 10px;
-  }
-  
-  p {
-    /* ベース */
-    background: #fff;
-    font-size: 16px;
-    margin: 0;
-    
-    /* アニメーション要素 */
-    /* line-height: 0; */
-    height: 0px;
-    opacity: 0;
-    padding: 0 10px;
-    transition: all .2s ease-out;
-  }
-  
-  .open p {
-    /* line-height: 1.25; */
-    height: 100px;
-    opacity: 1;
-    padding: 16px 10px;
-  }
-  
+body{
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul{ 
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+li{
+  list-style-type: none;
+}
+
+.content1{
+  background-color: aqua;
+  display: none;
+}
+
+.content2{
+  background-color: blue;
+  display: none;
+}
+
+.content3{
+  background-color: yellowgreen;
+  display: none;
+}
